@@ -7,7 +7,7 @@ This is both a hardware and a firmware project:
 - **Hardware:** an SPI wiring between the Pico and the module, including the module's external RF switch control (RXEN/TXEN).
 - **Firmware:** the official Meshtastic firmware plus a custom `variant.h`, one build flag and one small source patch.
 
-![Wiring diagram](pico_dx-lr20_wiring.jpg)
+![Wiring diagram](hardware/pico_dx-lr20_wiring.jpg)
 
 > **Firmware base:** Meshtastic `2.8.0`, upstream commit [`fcfe329`](https://github.com/meshtastic/firmware/commit/fcfe329), PlatformIO environment `pico`.
 
